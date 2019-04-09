@@ -7,7 +7,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch, faMoneyBillAlt, faTicketAlt, faClock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import './assets/styles/custom-bootstrap.scss';
-//import 'bootstrap/scss/bootstrap.scss';
 import { routes } from './routes';
 import { store } from './store/store';
 
@@ -51,7 +50,7 @@ Vue.config.productionTip = false;
 const router = new VueRouter({
   routes,
   mode: 'history',
-  base: process.env.NODE_ENV === 'production' ? '/vuemovie' : '/'
+  base: process.env.NODE_ENV === 'production' ? '/vue-movie' : '/'
 });
 
 new Vue({
