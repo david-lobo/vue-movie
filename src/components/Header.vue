@@ -28,6 +28,10 @@ export default {
       font-size: 1.5em;
       color: #fff;
       font-family: 'Teko', sans-serif;
+
+      &:hover, &:focus {
+        color: white;
+      }
     }
   }
 </style>
