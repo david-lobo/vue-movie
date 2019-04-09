@@ -1,6 +1,6 @@
 # vue-movie
 
-[Live Demo](https://david-lobo.github.io/Timer/dist/).
+[Live Demo](https://david-lobo.github.io/vue-movie/dist/)
 
 ## About
 
