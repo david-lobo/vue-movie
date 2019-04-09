@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+
+/* import only the necessary Bootstrap files */
+//@import "node_modules/bootstrap/scss/functions"; 
+//@import "node_modules/bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+$enable-rounded: false;
+
+$theme-colors: (
+  "success":    #7ade89
+);
+
+/* -------end customization-------- */
+/* finally, import Bootstrap to set the changes! */
+@import "node_modules/bootstrap/scss/bootstrap.scss";
