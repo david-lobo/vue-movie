@@ -50,7 +50,7 @@ Vue.config.productionTip = false;
 const router = new VueRouter({
   routes,
   mode: 'history',
-  base: process.env.NODE_ENV === 'production' ? '/vue-movie' : '/'
+  base: process.env.NODE_ENV === 'production' ? '/vue-movie/dist' : '/'
 });
 
 new Vue({
